@@ -1,0 +1,235 @@
+body{
+    /* background-image: url(https://www.albayan.ae/polopoly_fs/1.3837675.1587468004!/image/image.PNG); */
+    background-color: #f1ad05 ;
+    background-attachment: fixed;
+    background-repeat:  no-repeat;
+    background-size: 100% 100%;
+}
+#img1{
+    width: 100%;
+    height: 300px;
+}
+
+
+body,html{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #282828;
+    height: 80px;
+    
+  }
+  
+  .li {
+    float: left;
+    margin-top: 20px;
+  }
+  
+  .li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Alfa solab one', cursive;  
+  }
+  
+  .li a:hover, .dropdown:hover .dropbtn {
+    background-color: #f1ad05;  
+   
+  }
+  .img{
+   margin-top: 10px;
+   margin-left: 10px;
+  }
+
+
+
+
+
+
+
+
+ 
+
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100px;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100px;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .container:hover .overlay {
+    height: 100%;
+  }
+  
+  .text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+
+
+
+  div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color:white;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+    margin-bottom: 100px;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+
+
+ 
+
+
+   @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+/* body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+} */
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #f1ad05;
+  border-right: none;
+  padding: 5px;
+  height: 36px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #f1ad05;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 3px solid #f1ad05;
+  background: white;
+  text-align: center;
+  color: #f1ad05;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+
+.footer {
+    /* position: fixed; */
+    margin-top: 50px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #282828;
+    color: white;
+    text-align: center;
+    
+ }
+ p{
+     /* text-align: left; */
+     margin-right: 25%;
+ }
+ .e{
+border-radius: 25px;
+ }
+ /* .p{
+     text-align: center;
+ } */
+
+
+/* .rotate:hover
+{
+        -webkit-transform: rotateZ(-30deg);
+        -ms-transform: rotateZ(-30deg);
+        transform: rotateZ(-30deg);
+} */
